@@ -1,0 +1,17 @@
+$color-auqua: aqua;
+$text-color: blue;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $color-auqua;
+}
+
+.contenair {
+  border: 1px solid $text-color;
+  border-radius: 20px;
+  text-align: center;
+  margin: 30px;
+  color: $text-color;
+  background-color: lightgreen;
+}

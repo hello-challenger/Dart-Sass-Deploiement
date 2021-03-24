@@ -1,0 +1,13 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "mySiteSass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./asset/scss/style.scss:./public/css/style.css --style compressed",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "author": "Sylvain CHOCHOD",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
